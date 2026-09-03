@@ -38,3 +38,28 @@ const playBtn = document.querySelector('.play-btn');
 playBtn.addEventListener('click', () => {
   alert('Acá podrías abrir un video o una demo del producto.');
 });
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const formData = new FormData(contactForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: new URLSearchParams(formData).toString()
+    })
+      .then(() => {
+        contactForm.reset();
+        alert("Consulta enviada correctamente");
+      })
+      .catch(() => {
+        alert("Hubo un error al enviar el formulario");
+      });
+  });
+}
