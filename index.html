@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Impulso, una herramienta simple para organizar proyectos, tareas y equipos." />
+  <title>Impulso | Organiza y hacé crecer tu proyecto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">Impulso<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#funciones">Funciones</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#planes">Planes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ORGANIZACIÓN PARA EQUIPOS</p>
+          <h1>Una forma simple de hacer crecer tu proyecto.</h1>
+          <p class="hero-text">
+            Organizá tareas, seguí objetivos y trabajá con tu equipo desde un solo lugar,
+            sin herramientas complicadas.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#planes">Empezar</a>
+            <a class="btn btn-secondary" href="#funciones">Ver cómo funciona</a>
+          </div>
+          <div class="mini-proof">
+            <div class="avatars">
+              <span>LM</span><span>AG</span><span>NP</span>
+            </div>
+            <p><strong>+500 equipos</strong> ya organizan su trabajo con Impulso.</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Vista de la plataforma Impulso">
+          <img src="assets/dashboard.png" alt="Panel de tareas, gráfico y reunión virtual" />
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="funciones">
+      <div class="container narrow center">
+        <p class="eyebrow light">TODO EN UN MISMO LUGAR</p>
+        <h2>Mirá cómo funciona en menos de 2 minutos</h2>
+        <p class="section-intro light-muted">
+          Visualizá tareas, reuniones y resultados sin perder tiempo cambiando entre distintas aplicaciones.
+        </p>
+
+        <div class="video-card">
+          <img src="assets/dashboard-wide.png" alt="Ejemplo de la interfaz de Impulso" />
+          <button class="play-btn" type="button" aria-label="Reproducir demostración">▶</button>
+        </div>
+
+        <a class="btn btn-primary" href="#contacto">Solicitar información</a>
+      </div>
+    </section>
+
+    <section class="testimonials" id="nosotros">
+      <div class="container">
+        <div class="section-heading dark-heading">
+          <p class="eyebrow light">EXPERIENCIAS</p>
+          <h2>Equipos que trabajan mejor, con menos vueltas.</h2>
+        </div>
+
+        <div class="cards-3">
+          <article class="quote-card">
+            <p>“Ahora tenemos claro qué tarea hace cada persona y qué falta terminar.”</p>
+            <div>
+              <strong>Lucía Méndez</strong>
+              <span>Estudio Norte</span>
+            </div>
+          </article>
+
+          <article class="quote-card">
+            <p>“Pasamos de usar chats y planillas separadas a tener todo organizado en un único espacio.”</p>
+            <div>
+              <strong>Martín Suárez</strong>
+              <span>Pixel Lab</span>
+            </div>
+          </article>
+
+          <article class="quote-card">
+            <p>“Los reportes son simples de leer y nos ayudan a saber dónde estamos perdiendo tiempo.”</p>
+            <div>
+              <strong>Camila Ríos</strong>
+              <span>Modo Creativo</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="planes">
+      <div class="container narrow">
+        <div class="section-heading center">
+          <p class="eyebrow">PLANES</p>
+          <h2>Elegí el plan que mejor se adapte a tu equipo</h2>
+          <p class="section-intro">Podés empezar gratis y cambiar de plan cuando lo necesites.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="plan-name">Básico</p>
+            <p class="plan-desc">Para proyectos personales y equipos chicos.</p>
+            <div class="price"><span>$0</span> / mes</div>
+            <ul>
+              <li>✓ Hasta 3 proyectos</li>
+              <li>✓ Gestión de tareas</li>
+              <li>✓ Calendario básico</li>
+              <li>✓ Panel de actividad</li>
+            </ul>
+            <a class="btn btn-primary full" href="#contacto">Empezar gratis</a>
+          </article>
+
+          <article class="price-card featured">
+            <span class="badge">Más elegido</span>
+            <p class="plan-name">Pro</p>
+            <p class="plan-desc">Para equipos que necesitan más seguimiento.</p>
+            <div class="price"><span>USD 19</span> / mes</div>
+            <ul>
+              <li>✓ Proyectos ilimitados</li>
+              <li>✓ Reportes y estadísticas</li>
+              <li>✓ Reuniones y recordatorios</li>
+              <li>✓ Soporte prioritario</li>
+            </ul>
+            <a class="btn btn-light full" href="#contacto">Probar plan Pro</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container narrow">
+        <div class="section-heading center">
+          <p class="eyebrow">PREGUNTAS FRECUENTES</p>
+          <h2>Algunas dudas comunes</h2>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item open">
+            <button class="faq-question" type="button">
+              ¿Necesito instalar algún programa?
+              <span>−</span>
+            </button>
+            <div class="faq-answer">
+              <p>No. Impulso funciona desde el navegador y se adapta a computadora, tablet y celular.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button">
+              ¿Puedo invitar personas de mi equipo?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sí. Podés agregar integrantes y asignarles tareas dentro de cada proyecto.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button">
+              ¿El plan gratuito tiene tarjeta obligatoria?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No. Podés usar el plan básico sin ingresar datos de tarjeta.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" type="button">
+              ¿Puedo cambiar de plan más adelante?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sí, podés cambiar o cancelar tu plan cuando quieras.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow light">CONTACTO</p>
+          <h2>¿Querés probar Impulso con tu equipo?</h2>
+          <p class="light-muted">
+            Completá el formulario y te respondemos con más información.
+          </p>
+          <div class="contact-info">
+            <p><strong>Email</strong><br />hola@impulso.com</p>
+            <p><strong>Horario</strong><br />Lunes a viernes, 9:00 a 18:00</p>
+          </div>
+        </div>
+
+        <form class="contact-form" name="contacto" method="POST" data-netlify="true" action="gracias.html">
+          <input type="hidden" name="form-name" value="contacto" />
+          <p class="hidden-field">
+            <label>No completar: <input name="bot-field" /></label>
+          </p>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="nombre@email.com" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="empresa">Empresa o proyecto</label>
+            <input id="empresa" name="empresa" type="text" placeholder="Nombre de tu proyecto" />
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos brevemente qué necesitás" required></textarea>
+          </div>
+
+          <button class="btn btn-primary full" type="submit">Enviar consulta</button>
+          <p class="form-note">Al enviar aceptás que usemos estos datos únicamente para responder tu consulta.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#inicio">Impulso<span>.</span></a>
+        <p>Una herramienta simple para organizar proyectos y equipos.</p>
+      </div>
+      <div>
+        <strong>Secciones</strong>
+        <a href="#funciones">Funciones</a>
+        <a href="#planes">Planes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div>
+        <strong>Legal</strong>
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Impulso. Trabajo práctico de Diseño Web.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
